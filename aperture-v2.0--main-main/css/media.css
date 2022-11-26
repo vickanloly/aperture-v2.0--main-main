@@ -19,8 +19,13 @@
     .item_fltrs {
         font-size: 12px;
     }
-}
 
+}
+@media screen and (max-width: 768px){
+    .mobile_menu {
+    display: block;
+}
+}
 @media screen and (max-width: 701px) {
 
     .item_fltrs {
